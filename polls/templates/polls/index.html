@@ -1,0 +1,31 @@
+<section class="right-section">
+    <div class="right-section-contents">
+        <section class="about gap">
+            <div class="right-title">Rest full com Django</div>
+            <p class="about-me-contents">
+            Desenvolver um projeto RESTful em Django é uma tarefa desafiadora que exige habilidades técnicas, dedicação e perseverança. Você demonstrou competência e determinação ao longo desse processo, e o resultado final é a prova do seu talento.
+            Neste projeto, você teve a oportunidade de criar APIs eficientes e flexíveis que podem ser facilmente integradas em diferentes aplicativos e plataformas. Essas habilidades são muito valorizadas no mundo da tecnologia e certamente abrirão muitas portas para você no futuro.
+            </p>
+        </section>
+
+
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+      <li> Question - <a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+        <p>
+        Concluir o projeto de desenvolvimento de uma API RESTful com Django foi uma jornada emocionante e recompensadora. Durante todo esse processo, aprendi muito e enfrentei desafios que me ajudaram a aprimorar minhas habilidades como desenvolvedor. Agora que finalmente chegamos ao fim desse projeto, quero compartilhar minhas reflexões e conquistas.
+        <button data-toggle-text=" go ">
+          Congratulations
+        </button>
+      </p>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+

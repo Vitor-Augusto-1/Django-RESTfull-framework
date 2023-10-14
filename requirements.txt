@@ -119,7 +119,7 @@ python-debian==0.1.43+ubuntu1.1
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 pyxdg==0.27
-PyYAML==5.3.1
+PyYAML==5.4
 queuelib==1.6.2
 reportlab==3.6.8
 requests==2.31.0

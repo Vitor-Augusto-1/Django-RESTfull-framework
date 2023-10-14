@@ -100,7 +100,7 @@ pycparser==2.21
 pycups==2.0.1
 pydeck==0.8.0
 PyDispatcher==2.0.7
-Pygments==2.14.0
+Pygments==2.15.0
 PyGObject==3.42.1
 PyJWT==2.3.0
 pymacaroons==0.13.0

@@ -160,7 +160,7 @@ ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 unattended-upgrades==0.1
-urllib3==1.26.5
+urllib3==1.26.17
 validators==0.20.0
 virtualenv==20.13.0+ds
 w3lib==2.1.1

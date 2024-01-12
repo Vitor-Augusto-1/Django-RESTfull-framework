@@ -142,7 +142,7 @@ spark==0.2.1
 sql==2022.4.0
 SQLAlchemy==2.0.2
 sqlparse==0.4.4
-streamlit==1.20.0
+streamlit==1.30.0
 systemd-python==234
 tldextract==3.4.0
 toml==0.10.2
